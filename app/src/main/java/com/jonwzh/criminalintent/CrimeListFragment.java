@@ -33,7 +33,7 @@ public class CrimeListFragment extends ListFragment {
     public void onResume() {
         super.onResume();
 
-        // Update the title d
+        // Update the titles in the list
         ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
     }
 
