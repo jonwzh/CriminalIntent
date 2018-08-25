@@ -188,9 +188,9 @@ public class CrimeListFragment extends ListFragment {
                 CrimeLab.get(getActivity()).deleteCrime(crime);
                 adapter.notifyDataSetChanged();
                 return true;
+            default:
+                return super.onContextItemSelected(item);
         }
-
-        return super.onContextItemSelected(item);
     }
 
     private class CrimeAdapter extends ArrayAdapter<Crime> {
