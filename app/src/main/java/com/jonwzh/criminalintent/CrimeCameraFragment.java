@@ -20,7 +20,7 @@ import java.util.UUID;
 
 public class CrimeCameraFragment extends Fragment {
     private static String TAG = "CrimeCameraFragment";
-    private static final String EXTRA_PHOTO_FILENAME =
+    public static final String EXTRA_PHOTO_FILENAME =
             "com.jonwzh.criminalintent.photo_filename";
 
     private Camera mCamera;
