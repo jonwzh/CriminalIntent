@@ -1,2 +1,2 @@
 # CriminalIntent
-A project for learning Android application development
+An android application to record the office criminal intents
